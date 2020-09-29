@@ -5,9 +5,11 @@ using namespace std;
 class Node{
 
     public:
-    Node();
+        Node();
+        void examplefunction();
+
     private:
-    Node* next;
-    int value;
+        Node* next;
+        int value;
 };
 #endif
