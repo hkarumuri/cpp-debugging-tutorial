@@ -7,8 +7,6 @@ class Node{
     public:
         Node();
         void examplefunction();
-
-    private:
         Node* next;
         int value;
 };
